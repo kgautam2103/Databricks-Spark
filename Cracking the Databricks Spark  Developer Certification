@@ -1,0 +1,28 @@
+# Databricks-Spark
+Cracking the Databricks Spark  Developer Certification
+
+I took the Spark developer certification — Python exam during the last week of June 2019 and passed with 70%. This exam is relatively tougher than other Spark certification exams from Cloudera and MapR. More than 80% of the questions were Code Snippets with multiple correct answers. Here are some of the recommendations and tips from my side for those aspiring to appear for it.
+Databricks recommends to go through the book (7-steps-for-a-developer-to-learn-apache-spark) for the preparation, this can be a good starting point for preparation.
+Should be well versed with most of the RDD and Dataframe APIs.like map, flatmap, filter, Spark Session, DataFrameReader/DataFrameWriter, Dataframes, Row/Column, Spark SQL functions, Window.
+Should know Default storage levels for RDD and DataFrames and the details of other storage levels
+Spark Internals concept which includes Driver, Executor, Cores, jobs, Stages, Tasks, Partitions, Shuffling, Wide& Narrow Transformations.
+A very good source of Information for Spark Internals is youtube video by Sameer Farooqi, here is the link
+Structured Streaming API for Kafka Source and Sink
+Go through the details of the Pipeline (transformers and estimator) in ML flow.
+One Question on GraphFrames with BFS algorithm
+One Question on most efficient code for reading a CSV file and converting it into Parquet
+There were multiple questions on Broadcast joins and accumulators
+Questions on identifying the Actions and Transformations
+Questions on most efficient code with least data shuffling
+One Question on Catalyst Optimizer and Tungsten encoder
+One Question on Predicate Pushdown possibility in the given code snippet.
+Questions on default parallelism and the number of partitions for a dataset
+Coalesce and repartition
+Defining and registering UDFs in Spark
+Heap memory in JVMs when caching the data frames
+Performance of Python, Java and Scala APIs in Spark 2.x with catalyst and tungsten versus performance in Spark 1.x
+Structured Streaming link
+SparkSQL: A Compiler from Queries to RDDs: Spark Summit East talk by Sameer Agarwal link
+Tuning and Debugging Apache Spark link
+Structuring Apache Spark 2.0: SQL, DataFrames, Datasets And Streaming — by Michael Armbrust link
+So, that’s it from my side. Do let me know if you want any more details or have some clarifications. Best of luck for your preparation and Happy Learning.
